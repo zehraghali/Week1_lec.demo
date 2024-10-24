@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fed07a6a-b582-4b22-8e6f-05cfc7fae15d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LocalizedGreeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Message_en_UK.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Message_es_ES.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Message_fr_FR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LocalizedGreetingTest.java" afterDir="false" />
+    <list default="true" id="fed07a6a-b582-4b22-8e6f-05cfc7fae15d" name="Changes" comment="New">
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Message_fa_IR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Message_ja_JP.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LocalizedGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LocalizedGreeting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2njplfZP8JfecAGDxGb7raeQ7Ki" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,7 +44,7 @@
   "keyToString": {
     "Application.LocalizedGreeting.executor": "Run",
     "Docker.Dockerfile.executor": "Run",
-    "JUnit.LocalizedGreetingTest.executor": "Run",
+    "JUnit.LocalizedGreetingTest.executor": "Coverage",
     "Maven.week1_lec.demo [clean].executor": "Run",
     "Maven.week1_lec.demo [package].executor": "Run",
     "Maven.week1_lec.demo [test].executor": "Run",
@@ -69,6 +61,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,7 +72,16 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="LocalizedGreetingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week1_lec.demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LocalizedGreetingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -91,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="JUnit.LocalizedGreetingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -109,11 +112,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729496492282</updated>
-      <workItem from="1729496493793" duration="2461000" />
+      <workItem from="1729496493793" duration="3553000" />
+      <workItem from="1729751522312" duration="6029000" />
     </task>
+    <task id="LOCAL−00001" summary="New">
+      <option name="closed" value="true" />
+      <created>1729499037216</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1729499037216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New" />
+    <option name="LAST_COMMIT_MESSAGE" value="New" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/week1_lec_demo$LocalizedGreetingTest.ic" NAME="LocalizedGreetingTest Coverage Results" MODIFIED="1729754891169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
