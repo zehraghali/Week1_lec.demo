@@ -1,5 +1,5 @@
 FROM maven:latest
-
+LABEL authors="zehraghali"
 WORKDIR /app
 
 COPY pom.xml /app/
@@ -8,6 +8,6 @@ COPY . /app/
 
 RUN mvn package
 
-cmd ["java", "-jar", "target/test.jar"]
+CMD ["java", "-jar", "target/test.jar"]
 
 

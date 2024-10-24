@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 git branch: 'main', url: 'https://github.com/zehraghali/Week1_lec.demo.git'
+                git branch: 'main', url: 'https://github.com/zehraghali/Week1_lec.demo.git'
             }
         }
         stage('Run Tests') {
@@ -49,12 +49,10 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('https://index.docker.io/v1/', env.DOCKERHUB_CREDENTIALS_ID) {
-                        docker.image("${env.DOCKERHUB_REPO}:${env.DOCKER_IMAGE_TAG}").push()
+                        docker.image("zehraghali/lecturedemo1_v0:latest").push()
                     }
                 }
             }
         }
     }
 }
-
-
